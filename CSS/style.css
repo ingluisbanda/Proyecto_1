@@ -5,8 +5,27 @@ main > .container {
 }
 
 .color1{
-    background-color: rgb(173, 128, 216);
+    background-color: #ad80d8;
 }
 .color2{
-    background-color: rgb(128, 210, 216);
+    background-color: #80d2d8;
+}
+
+.color3{
+    color: #fff;
+}
+
+.design1{
+    background-image: url(/img/inicio/Cuarto_Bebe.jpg);
+    background-repeat: no-repeat;
+}
+
+.design2{
+    background-image: url(/img/inicio/desarrollo-y-estimulacion.jpg);
+    background-repeat: no-repeat;
+}
+
+.design3{
+    background-image: url(/img/inicio/Coches_y_Sillas.jpg);
+    background-repeat: no-repeat;
 }
