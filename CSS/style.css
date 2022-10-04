@@ -45,11 +45,12 @@ main > .container {
 }
 
 .bg-header{
-    background-color: #CAEBF2 !important;
+    background-color: #99D3DF !important;
 }
 
 .tam_logo{
     height: 80px;
+    margin: 5px;
 }
 
 .color_titulo{
@@ -62,4 +63,12 @@ main > .container {
 
 .color_body{
     background-color: #e9e9e9;
+}
+
+.color_bg_footer{
+    background-color: #CDCDCD;
+}
+
+.color_bg_footer_final{
+    background-color: #99D3DF;
 }
