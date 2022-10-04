@@ -24,17 +24,19 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
 
-  <body>
+  <body class="color_body">
     <!-- INICIO Barra de Navegacion -->
     <header>
       <!-- navbar-expand-lg: Para que este en todo el ancho de la pagina -->
-      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="navbar navbar-expand-lg navbar-dark bg-header">
         <div class="container">
+          <!-- LOGO de la pagina -->
+         <div><img src="/img/Logos/Logo_tienda_bebe_sf_2.png" class="tam_logo" alt="logo"></div> 
           <a href="#" class="navbar-brand d-flex align-items-center">
             <!-- ICONO de la camara -->
 
             <!-- TITULO principal de la barra de Navegacion -->
-            <strong>Tienda Online</strong>
+            <strong class="color_titulo">Baby Shop</strong>
           </a>
           <button
             class="navbar-toggler"
@@ -56,7 +58,7 @@
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Catalogo
+                  <strong class="color_desp">Catalogo</strong>  
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Cuarto del Bebé</a></li>
@@ -90,7 +92,7 @@
               <div class="d-flex flex-column align-items-center justify-content-center border-end mx-2 px-3">
                 <a href="#"><img class="" src="img/Logos/Cuenta2.png" alt="" width="27" height="27"></a>
                 <div class="cont-info">
-                  <div class="color3"><a href="#" class="text-decoration-none text-reset">Mi cuenta</a></div>
+                  <div class="color3"><a href="#" class="text-decoration-none text-reset color_desp"><strong>Mi cuenta</strong> </a></div>
                 </div>
               </div>
 
@@ -116,11 +118,10 @@
   <section>
     <!-- Primera Fila -->
     <div class="container text-center mt-4">
-      <div class="row mb-1">
+      <div class="row mb-3">
         <div class="col d-flex flex-column align-items-center justify-content-center">
           <a href="cuarto_del_bebe.html" class="">
             <img src="img/inicio/Cuarto_Bebe.jpg" alt="mi-cuarto"></a>
-          <p>Mi cuarto</p>
         </div>
         <div class="col">
           <a href="Desarrollo_y_Estimulacion.html"><img src="img/inicio/desarrollo-y-estimulacion.jpg" alt="desarrollo_y_estimulacion"></a>
@@ -130,7 +131,7 @@
         </div>
       </div>
       <!-- Segunda Fila -->
-      <div class="row mb-1">
+      <div class="row mb-3">
         <div class="col">
           <a href="Maternidad.html"><img src="img/inicio/Maternidad.jpg" alt="maternidad"></a>
         </div>
@@ -142,7 +143,7 @@
         </div>
       </div>
       <!-- Tercera Fila -->
-      <div class="row mb-1">
+      <div class="row mb-3">
         <div class="col">
           <a href="Salud_y_Seguridad.html"><img src="img/inicio/saud-y-seguridad.jpg" alt="Salud_y_Seguridad"></a>
         </div>
