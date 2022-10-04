@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MasterPro</title>
+    <title>Todo en Alimentación</title>
 
     <!-- CSS only Llama al boostrap desde el servidor, sin necesidad de 
          tenerlo en el computador -->
@@ -48,7 +48,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- INICIO Opciones de la barra de Navegacion -->
-
           <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarHeader">
           <!-- INICIO Menú Desplegable -->
           <div>
@@ -61,11 +60,12 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Cuarto del Bebé</a></li>
                     <li><a class="dropdown-item" href="#">Desarrollo y Estimulación</a></li>
-                    <li><a class="dropdown-item" href="#">Coches y Sillas</a></li>
-                    <li><a class="dropdown-item" href="#">Maternidad</a></li>
+                    <li><a class="dropdown-item" href="#">Coches</a></li>
+                    <li><a class="dropdown-item" href="#">Sillas para Carro</a></li>
                     <li><a class="dropdown-item" href="#">Alimentación</a></li>
                     <li><a class="dropdown-item" href="#">Baño e Higiene</a></li>
                     <li><a class="dropdown-item" href="#">Salud y Seguridad</a></li>
+                    <li><a class="dropdown-item" href="#">Cargadores</a></li>
                     <li><a class="dropdown-item" href="#">Juguetería</a></li>
                     <li><a class="dropdown-item" href="#">Ofertas</a></li>
                   </ul>
@@ -90,83 +90,152 @@
               <div class="d-flex flex-column align-items-center justify-content-center border-end mx-2 px-3">
                 <a href="#"><img class="" src="/img/Logos/Cuenta2.png" alt="" width="27" height="27"></a>
                 <div class="cont-info">
-                  <div class="color3"><a href="#" class="text-decoration-none text-reset">Mi cuenta</a></div>
+                  <div class="color3">Mi cuenta</div>
                 </div>
               </div>
 
               <div class="d-flex flex-column align-items-center justify-content-center mx-2">
                 <a href="#"><img class="" src="/img/Logos/cesteria.png" alt="" width="27" height="27"></a>
                 <div class="cont-info">
-                    <div class="color3"><a href="carrito.html" class="btn btn-outline-primary btn-sm altura">Carrito</a></div>
+                    <div class="color3">Mi carrio</div>
                 </div>
               </div>
 
             </div>
 
-           <!-- FIN Opciones de la barra de Navegacion -->
-                        
           </div>
         </div>
       </div>
     </header>
+
+    <!-- INICIO CARDS Articulos de la pagina-->
+    <main>
+      <div class="container">
+        <!-- La siguiente fila representa el numero de columnas que debera tener la pagina
+     para ajustarse al tamaño de la pantalla row: filas, cols: Columnas-->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!--INICIO de la tarjeta -->
+          <!--col: crea una columna para la tarjeta-->
+          <div class="col">
+            <!--shadow-sm: Agrega sombra a la tarjeta -->
+            <div class="card shadow-sm">
+              <!--INICIO Imagen de la tarjeta + Carrusel-->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/Productos/similac/S1.jpg" class="d-block w-100" alt="S1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Productos/similac/S2.jpg" class="d-block w-100" alt="S2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Productos/similac/S3.jpg" class="d-block w-100" alt="S3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Productos/similac/S4.jpg" class="d-block w-100" alt="S4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Productos/similac/S5.jpg" class="d-block w-100" alt="S5">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!--FIN Imagen de la tarjeta + Carrusel-->
+
+              <div class="card-body">
+                <h5 class="card-tittle">Similac 1 Etapa 1</h5>
+                <p class="card-text">
+                    Fórmula infantil con hierro para lactantes de 0 a 6 meses que combina una mezcla de grasas de fácil digestión con 
+                    prebióticos HMO 2´-FL, nucleotidos, DHA y luteína.
+                </p>
+                <p class="card-text">$126.900</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!--Primer Boton de la tarjeta -->
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                  </div>
+                  <!--Segundo Boton de la tarjeta -->
+                  <a href="#" class="btn btn-success">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!--FIN de la tarjeta -->
+
+          <!--INICIO de la tarjeta -->
+          <!--col: crea una columna para la tarjeta-->
+          <div class="col">
+            <!--shadow-sm: Agrega sombra a la tarjeta -->
+            <div class="card shadow-sm">
+              <!--Imagen de la tarjeta -->
+              <img src="/img/Productos/similac/S1.jpg" alt="Similac_1" />
+              <div class="card-body">
+                <h5 class="card-tittle">Similac 1</h5>
+                <p class="card-text">
+                  Leche de fórmula líquida Abbott Similac ProSensitive 1 en
+                  botella 4 unidades de 59mL - 0 a 6 meses
+                </p>
+                <p class="card-text">$10.400</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!--Primer Boton de la tarjeta -->
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                  </div>
+                  <!--Segundo Boton de la tarjeta -->
+                  <a href="#" class="btn btn-success">Agregar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIN de la tarjeta -->
+
+          <!--INICIO de la tarjeta -->
+          <!--col: crea una columna para la tarjeta-->
+          <div class="col">
+            <!--shadow-sm: Agrega sombra a la tarjeta -->
+            <div class="card shadow-sm">
+              <!--Imagen de la tarjeta -->
+              <img src="/img/Productos/similac/S1.jpg" alt="Similac_1" />
+              <div class="card-body">
+                <h5 class="card-tittle">Similac 1</h5>
+                <p class="card-text">
+                  Leche de fórmula líquida Abbott Similac ProSensitive 1 en
+                  botella 4 unidades de 59mL - 0 a 6 meses
+                </p>
+                <p class="card-text">$10.400</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!--Primer Boton de la tarjeta -->
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                  </div>
+                  <!--Segundo Boton de la tarjeta -->
+                  <a href="#" class="btn btn-success">Agregar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIN de la tarjeta -->
+        
+        </div>
+      </div>
+    </main>
+    <!-- FIN CARDS Articulos de la pagina-->
+
     <!-- FIN Barra de Navegacion -->
-
-    <!-- INICIO Imagenes del cuerpo de la pagina -->
-  <!-- Uso de Flex-Grid -->
-  <section>
-    <!-- Primera Fila -->
-    <div class="container text-center mt-4">
-      <div class="row mb-1">
-        <div class="col d-flex flex-column align-items-center justify-content-center">
-          <a href="cuarto_del_bebe.html" class="">
-            <img src="/img/inicio/Cuarto_Bebe.jpg" alt="mi-cuarto"></a>
-          <p>Mi cuarto</p>
-        </div>
-        <div class="col">
-          <a href="Desarrollo_y_Estimulacion.html"><img src="/img/inicio/desarrollo-y-estimulacion.jpg" alt="desarrollo_y_estimulacion"></a>
-        </div>
-        <div class="col">
-          <a href="Coches_y_Sillas.html"><img src="/img/inicio/Coches_y_Sillas.jpg" alt="coches_y_sillas"></a>
-        </div>
-      </div>
-      <!-- Segunda Fila -->
-      <div class="row mb-1">
-        <div class="col">
-          <a href="Maternidad.html"><img src="/img/inicio/Maternidad.jpg" alt="maternidad"></a>
-        </div>
-        <div class="col">
-          <a href="Alimentacion.html"><img src="/img/inicio/Alimentacion.jpg" alt="alimentacion"></a>
-        </div>
-        <div class="col">
-          <a href="Baño_e_Higiene.html"><img src="/img/inicio/Baño_e_Higiene.jpg" alt="higiene"></a>
-        </div>
-      </div>
-      <!-- Tercera Fila -->
-      <div class="row mb-1">
-        <div class="col">
-          <a href="Salud_y_Seguridad.html"><img src="/img/inicio/saud-y-seguridad.jpg" alt="Salud_y_Seguridad"></a>
-        </div>
-        <div class="col">
-          <a href="Jugueteria.html"><img src="/img/inicio/Juguetes.jpg" alt="jugueteria"></a>
-        </div>
-        <div class="col">
-          <a href="Ofertas.html"><img src="/img/inicio/Ofertas.jpg" alt="ofertas"></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FIN Imagenes del cuerpo de la pagina -->
 
     <!-- INICIO del FOOTER -->
 
     <!-- INICIO del FOOTER Redes Sociales -->
 
-
-<footer class=" mt-4 border-top">
-
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
-
 <div class="">
     <div class="py-5 d-flex justify-content-around align-items-baseline">
         <div class="d-flex flex-column align-items-center justify-content-center">
@@ -219,16 +288,14 @@
 </div>
 </footer>
 
-  <!-- FIN del FOOTER Redes Sociales -->
-
-  <!-- INICIO del FOOTER de fondo -->
+    <!-- FIN del FOOTER Redes Sociales -->
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row d-flex align-items-baseline">
+        <div class="row">
           <div class="col-12 col-md d-flex flex-column align-items-center justify-content-center">
             <img class="mb-2" src="/img/Logos/home-page.png" alt="" width="24" height="19">
             <h5>Sobre Nosotros</h5>
-            <ul class="list-unstyled text-small d-flex flex-column align-items-baseline justify-content-center">
+            <ul class="list-unstyled text-small d-flex flex-column align-items-center justify-content-center">
                 <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Comercio MasterPro S.A.</a></li>
                 <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">NIT: 890.900.900-1</a></li>
             </ul>
@@ -259,20 +326,10 @@
               <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacidad</a></li>
               <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Mapa del Sitio</a></li>
               <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Derecho de Retracto</a></li>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Contactanos</h5>
-            <ul class="list-unstyled text-small">
-              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-          </div>
             </ul>
           </div>
         </div>
       </footer>
-    <!-- FIN del FOOTER de fondo -->
     <!-- FIN del FOOTER -->
   </body>
 </html>
