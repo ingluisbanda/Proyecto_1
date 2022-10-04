@@ -5,7 +5,7 @@ main > .container {
 }
 
 .color1{
-<<<<<<< HEAD
+
     background-color: #ad80d8;
 }
 .color2{
@@ -19,6 +19,8 @@ main > .container {
 .design1{
     background-image: url(/img/inicio/Cuarto_Bebe.jpg);
     background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
 }
 
 .design2{
@@ -29,10 +31,15 @@ main > .container {
 .design3{
     background-image: url(/img/inicio/Coches_y_Sillas.jpg);
     background-repeat: no-repeat;
-=======
+
     background-color: rgb(173, 128, 216);
 }
 .color2{
     background-color: rgb(128, 210, 216);
->>>>>>> f04e94d79cc82a333ca7178337965ddef52f0cb2
+
+}
+
+.altura{
+    height: 28px !important;
+    margin: 6px !important;
 }
